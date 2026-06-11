@@ -1,1 +1,0 @@
-export const tenantInfrastructure = "tenant";
