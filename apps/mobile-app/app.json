@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "SportOS",
+    "slug": "sportos-mobile-app",
+    "scheme": "sportos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router"]
+  }
+}

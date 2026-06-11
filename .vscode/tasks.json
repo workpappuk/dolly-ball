@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SportOS: Dev",
+			"type": "shell",
+			"command": "npx",
+			"args": [
+				"-y",
+				"pnpm@10.11.0",
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}

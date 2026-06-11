@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sportos/shared/*": ["packages/shared/src/*"],
+      "@sportos/auth/*": ["packages/auth/src/*"],
+      "@sportos/tenant/*": ["packages/tenant/src/*"],
+      "@sportos/cricket/*": ["packages/cricket/src/*"],
+      "@sportos/football/*": ["packages/football/src/*"],
+      "@sportos/kabaddi/*": ["packages/kabaddi/src/*"],
+      "@sportos/subscription/*": ["packages/subscription/src/*"],
+      "@sportos/notification/*": ["packages/notification/src/*"],
+      "@sportos/ai/*": ["packages/ai/src/*"],
+      "@sportos/analytics/*": ["packages/analytics/src/*"],
+      "@sportos/ui/*": ["packages/ui/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", ".next"]
+}
